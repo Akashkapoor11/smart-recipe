@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base */
+@layer base {
+  /* use standard Tailwind colors instead of custom 'border-border' etc */
+  * { @apply border-gray-200; }
+  body { @apply bg-gray-600 text-gray-100 overflow-x-hidden; 
+    @apply bg-[yourcolor] text-black overflow-x-hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+}
+
+/* Components */
+@layer components {
+  .card { @apply rounded-xl bg-white shadow-sm border transition-transform hover:shadow-lg hover:scale-[1.01]; }
+  .input { @apply block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50; }
+  .badge { @apply inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold; }
+  .btn { @apply inline-flex items-center justify-center rounded-md text-sm font-medium bg-black text-white px-4 py-2 hover:bg-black/90; }
+  .image-container { @apply w-full h-32 object-cover rounded-xl; }
+  .recipe-detail-image { @apply w-full md:w-40 h-32 object-cover rounded-2xl; }
+}
+
+
+/* Utilities (custom shorthands used by your JSX) */
+@layer utilities {
+  .text-dark { @apply text-gray-900; }
+  .text-primary { @apply text-indigo-600; }
+  .bg-primary { @apply bg-indigo-600; }
+  .bg-accent { @apply bg-indigo-600; }
+  .animate-fade-in { animation: fade-in .4s ease both; }
+  .animate-pulse-slow { animation: pulse 2.5s cubic-bezier(0.4,0,0.6,1) infinite; }
+}
+
+@keyframes fade-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
