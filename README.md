@@ -69,7 +69,7 @@ lib/
 public/
   *.jpg                    # Local images + fallback.jpg
 
-<img width="1905" height="1016" alt="Image" src="https://github.com/user-attachments/assets/37896dea-8216-4c52-9069-7d7f980a1ab5" />
+<img width="1864" height="1021" alt="Image" src="https://github.com/user-attachments/assets/5731fd57-ea3f-4a09-b176-5c81f4a4b3e8" />
 <img width="1907" height="1029" alt="Image" src="https://github.com/user-attachments/assets/cad3efcc-d7e9-44c7-9d83-51615e5a462f" />
 ## Data Shape (Recipe)
 ts
