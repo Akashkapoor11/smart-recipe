@@ -68,6 +68,9 @@ lib/
   store.ts / useHydrateStore.ts
 public/
   *.jpg                    # Local images + fallback.jpg
+
+<img width="1905" height="1016" alt="Image" src="https://github.com/user-attachments/assets/37896dea-8216-4c52-9069-7d7f980a1ab5" />
+<img width="1907" height="1029" alt="Image" src="https://github.com/user-attachments/assets/cad3efcc-d7e9-44c7-9d83-51615e5a462f" />
 ## Data Shape (Recipe)
 ts
 Copy code
