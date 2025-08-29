@@ -174,7 +174,3 @@ Place local images in /public and reference as /My Image.jpg.
 
 Add a fallback.jpg in /public.
 
-## Notes
-No external API keys are required.
-
-All recognition runs on-device; accuracy varies—users confirm tags.
